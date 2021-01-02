@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mini task project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+<link rel="stylesheet" href="./css/1.css">
+</head>
+
+<body>
+
+
+    <section class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <div class="container has-text-centered">
+
+            <!-- <h1 class="title">
+              My task board
+            </h1> -->
+      <img src="./images/title.png" alt="my task board" />
+          </div>
+        </div>
+        </div>
+      </section>
+
+    <section class="section" id="taksCreate">
+        <div class="container">
+            <div class="columns">
+                <div class="card column is-third">
+                    <div class="card-content ">
+                        <form id="taskForm">
+                        <div class="field">
+                            <label class="label">Task Name</label>
+                            <div class="control">
+                                <input class="input" type="text" name="task Name" id="taskName" placeholder="task name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Task Description</label>
+                            <div class="control">
+                                
+                                <textarea class="textarea" name="task Description" id="taskDesc" placeholder="task Description"></textarea>
+
+                            </div>
+                        </div>
+                        <div class="control">
+                            <button class="button is-danger" onClick="reset()">Clear Task</button>
+                            <button class="button is-success" onClick="addTask()">Add Task</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<script src="./js/1.js"></script>
+
+</body>
+
+</html>

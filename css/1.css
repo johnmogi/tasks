@@ -1,0 +1,21 @@
+body{
+
+    background: url('../images/tile.jpg');
+    height: 100vh;
+}
+
+.column{
+    max-width:45%;
+}
+#taksCreate .card{
+        background: url('../images/formbg.jpg') -20px 0;
+        background-size: 100%;
+}
+#taksCreate .card-content {
+    background-color: #fafafad4;
+}
+#stage .card {
+    background: url('../images/notebg.png') 100% 10% no-repeat;
+    background-size: cover;
+    padding: 0 25px 0 0;
+}
