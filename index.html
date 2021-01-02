@@ -7,6 +7,8 @@
     <title>mini task project</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 <link rel="stylesheet" href="./css/1.css">
+<!-- <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"> -->
 </head>
 
 <body>
@@ -25,7 +27,9 @@
         </div>
         </div>
       </section>
-
+      <!-- <section class="section" id="taskNotice" class="container has-text-centered">
+          Feel free to add any task...
+      </section> -->
     <section class="section" id="taksCreate">
         <div class="container">
             <div class="columns">
@@ -35,14 +39,20 @@
                         <div class="field">
                             <label class="label">Task Name</label>
                             <div class="control">
-                                <input class="input" type="text" name="task Name" id="taskName" placeholder="task name">
+                                <input class="input" type="text" name="task Name" id="taskName" placeholder="Task Name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Task Due Date</label>
+                            <div class="control">
+                                <input class="input" type="datetime-local" name="task Date" id="taskDueDate" placeholder="Task Date">
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Task Description</label>
                             <div class="control">
                                 
-                                <textarea class="textarea" name="task Description" id="taskDesc" placeholder="task Description"></textarea>
+                                <textarea class="textarea" name="task Description" id="taskDesc" placeholder="Task Description"></textarea>
 
                             </div>
                         </div>
@@ -56,6 +66,10 @@
             </div>
         </div>
         </div>
+    </section>
+    <section class="section container columns is-multiline" id="taskBoard" >
+    
+        
     </section>
 <script src="./js/1.js"></script>
 
